@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Blog de Nieves Borrero</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+	<header>
+		<div class='transparent'>
+		<h1> LABORATORIO IA</h1>
+		<h3> Inteligencia artificial, bots, machine learning, UX...</h3>
+		</div>
+		
+	</header>
+	<nav>
+		<ul class= opciones>
+		<li><a href="./index.html" class="opcion">&nbsp&nbspInicio&nbsp&nbsp</a> </li>
+		<li><a href="./articulos.html" class="opcion"> Artículos</a> </li>
+		<li><a href="./tutorial.html" class="opcion">Tutoriales</a> </li>
+		<li><a href="./eventos.html" class="opcion">&nbspEventos&nbsp</a> </li>
+		<li><a href="#" class="opcion"> contactar</a> </li>
+		<li><input type="search" name="search" placeholder="Buscar" class="search"></li>
+		</ul>
+		
+		<ul class= images>
+		<li><a href="https://twitter.com/nievesborrero"><img src="./images/twi.png" alt="twt" class="rsocial"></a></li>
+		<li><a href="https://github.com/NievesBorrero"><img src="./images/git.jpg" alt="git" class="rsocial"></a></li>
+		<li><a href="https://www.linkedin.com/in/nieves-mar%C3%ADa-borrero-barea-40b39b84/"><img src="./images/linke.png" alt="in" class="rsocial"></a></li>
+		<li><a href="https://www.google.es/"><img src="./images/logout.svg" alt="exit" class="rsocial"></a></li>
+		</ul>
+	</nav>
+	<main>
+		<header>Contactar</header>	
+		<section class="formulario">
+			<div class="dialog">
+				<img src="./images/dialog.svg" alt="Contact us">
+			</div>
+			<form accept-charset="utf-8">
+				<fieldset>
+					<legend>Contacta con nosotros</legend>
+					<label>Nombre:</label><br><input type="text" name="name" value="" required><br>
+					<label>Email:</label><br><input type="text" name="mail" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+					<label>Cuéntanos:</label><br><textarea name="msj" cols="21" rows="5" value=""></textarea><br>
+					<label>Acepto los<a href=""> términos y condiciones</a></label><input type="checkbox" name="terminos"><br>
+					<label>Suscribirse al boletín</label><input type="checkbox" name="novedades" checked><br><br>
+					<input type="submit" name="enviar" value="Enviar">
+					<input type="reset" name="limpiar" value="Limpiar">
+				</fieldset>
+			</form>	
+		</section>
+	</main>
+	<aside>
+		<article class="about"> 			
+			<header> Acerca de mí </header><br>
+				<div class="mifoto">
+					<img src="./images/foto.JPG">
+					<h4>Nieves Borrero Barea</h4>
+				</div>
+				<div class="info">
+						<p>Desarrolladora de aplicaciones web.</p>
+						<p>Organizadora del GDG Córdoba.</p>
+						<p>Woman Tech Leader en GDG Córdoba.</p>
+						<p>Licenciada en historia del arte.</p>
+						<p>En continua búsqueda de soluciones que mejoren el mundo. Creo en la tecnología como herramienta para conseguirlo.</p>
+				<div>
+		</article>
+		<article>
+			<header>Artículos recientes </header>	
+			<ul>
+				<li> <a href="./articulo.html" >Chatbots, una aplicación más</a></li>
+				<li> <a href="./articulo.html" >Machine Learning</a></li>
+				<li> <a href="./articulo.html" >Deep Learning</a></li>
+				<li> <a href="./articulo.html" >¿Chatbots vs aplicaciones?</a></li>
+				<li> <a href="./articulo.html" >Chatbots y UX</a></li>
+				<li> <a href="./articulo.html" >Dialogflow, conceptos básicos</a></li>
+				<li> <a href="./articulo.html" >IA (Herramientas)</a></li>
+			</ul>
+			<header>Eventos Destacados </header>	
+			<ul>
+				<li> <a href="./evento.html" >GDG Devfest Córdoba 2017</a></li>
+				<li> <a href="./evento.html" >Ciberseguridad e IA</a></li>
+				<li> <a href="./evento.html" >ArtificialExpo</a></li>
+				<li> <a href="./evento.html" >AIshow</a></li>				
+				<li> <a href="./evento.html" >Conferencia Machine Learning</a></li>
+				<li> <a href="./evento.html" >Evento Planeta Chatbot</a></li>
+				<li> <a href="./evento.html" >2ML</a></li>
+			</ul>
+		</article>
+	</aside>
+	<footer>
+		<p>Blog diseñado y desarrollado por Nieves Borrero || <a href="#"> Licencia </a>
+	</footer>
+	<script src="./js/canvas.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
